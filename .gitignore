@@ -1,0 +1,19 @@
+# Terraform working files and state
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan*
+terraform.tfvars
+*.auto.tfvars
+crash.log
+crash.*.log
+
+# Sensitive key and certificate files
+*.pem
+*.key
+*.p12
+
+# Local archives and temporary files
+*.zip
+tmp/
