@@ -51,6 +51,16 @@ terraform output -raw alb_dns_name
 terraform output -raw ec2_private_ip
 ```
 
+Test HTTP and HTTPS:
+
+```powershell
+$ALB_DNS = (terraform output -raw alb_dns_name).Trim()
+
+curl.exe --fail "http://$ALB_DNS"
+curl.exe --fail --insecure "https://$ALB_DNS"
+```
+
+
 
 ## Verified result
 
