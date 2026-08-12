@@ -27,6 +27,7 @@ This Terraform project creates the AWS infrastructure requested in the ENG take-
 ## Prerequisites
 
 - AWS Account
+- AWS shared credential profiles or An IAM role
 - Terraform 1.15.x
 - Permission to create the resources in that account
 
