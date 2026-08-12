@@ -1,6 +1,6 @@
 # DevOps Exercise
 
-This Terraform project creates the AWS infrastructure requested in the Cloud Infrastructure ENG take-home exercise.
+This Terraform project creates the AWS infrastructure requested in the ENG take-home exercise.
 
 ## What it creates
 
