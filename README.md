@@ -17,7 +17,7 @@ This Terraform project creates the AWS infrastructure requested in the ENG take-
 
 ## Assumptions
 
-- The deployment uses `us-east-1` and the AWS CLI `default` profile.
+- The deployment uses `us-east-1`
 - The first two available Availability Zones in the region are used.
 - The EC2 instance type is `t3.micro`.
 - The instance has no public IP and the private route table has no internet route.
